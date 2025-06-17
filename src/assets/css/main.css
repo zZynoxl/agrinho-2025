@@ -4,6 +4,7 @@
 @import url(../css/layout/header.css);
 @import url(../css/layout/banner.css);
 @import url(../css/componentes/cronometro.css);
+@import url(../css/componentes/conteudo.css);
 
 html {
     scroll-behavior: smooth;
