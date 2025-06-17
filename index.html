@@ -46,7 +46,7 @@
 
     <!-- espaço para menu de acessibilidade -->
 
-    
+
     <!-- fim do espaço para menu de acessibilidade -->
 
 
@@ -59,7 +59,43 @@
         </div>
     </section>
 
+     <main id="main-content" role="main">
+
+        <!--  Contador-de-tempo Inspirado na trilha: https://cursos.alura.com.br/course/new-javascript-organizando-projeto-vida-matematica-aplicada -->
+
+        <section class="contador-de-tempo" id="contador">
+            <h2 id="titulo">1º Festival Gastronômico Sabores do Campo na Cidade<span>!</span></h2>
+            <h3 id="mensagem">CONTAGEM REGRESSIVA PARA O FESTIVAL</h3>
+
+            <div class="contador">
+                <div class="contador-digital">
+                    <p class="contador-digital-numero" id="days"></p>
+                    <p class="contador-digital-label">dias</p>
+                </div>
+                <div class="contador-digital">
+                    <p class="contador-digital-numero" id="hours"></p>
+                    <p class="contador-digital-label">horas</p>
+                </div>
+                <div class="contador-digital">
+                    <p class="contador-digital-numero" id="minutes"></p>
+                    <p class="contador-digital-label">min</p>
+                </div>
+                <div class="contador-digital">
+                    <p class="contador-digital-numero" id="seconds"></p>
+                    <p class="contador-digital-label">seg</p>
+                </div>
+            </div>
+            <div class="fogos-container" aria-hidden="true"></div>
+            <div class="button-container">
+                <button id="simular" class="btn btn-warning mt-3">Simular dia do Festival</button>
+            </div>
+
+        </section>
+
     <main id="main-content" role="main">
+
+
+    <script src="src/assets/js/cronometro.js"></script>
 
     </body>
 </html>

@@ -3,6 +3,7 @@
 @import url(../css/layout/keyframes.css);
 @import url(../css/layout/header.css);
 @import url(../css/layout/banner.css);
+@import url(../css/componentes/cronometro.css);
 
 html {
     scroll-behavior: smooth;
