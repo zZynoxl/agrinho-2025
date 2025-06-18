@@ -5,6 +5,7 @@
 @import url(../css/layout/banner.css);
 @import url(../css/componentes/cronometro.css);
 @import url(../css/componentes/conteudo.css);
+@import url(../css/componentes/cards-pratos.css);
 
 html {
     scroll-behavior: smooth;
