@@ -8,6 +8,7 @@
 @import url(../css/componentes/cards-pratos.css);
 @import url(../css/componentes/lista-regras.css);
 @import url(../css/componentes/contato.css);
+@import url(../css/layout/footer.css);
 
 html {
     scroll-behavior: smooth;
